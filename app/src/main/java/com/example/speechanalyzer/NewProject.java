@@ -27,6 +27,7 @@ public class NewProject extends AppCompatActivity implements View.OnClickListene
         buttonNew = findViewById(R.id.MLButton);
         startButton = findViewById(R.id.button2);
         stopButton = findViewById(R.id.button3);
+
         buttonNew.setOnClickListener(new TestClickThree());
 
         startButton.setOnClickListener(this);
