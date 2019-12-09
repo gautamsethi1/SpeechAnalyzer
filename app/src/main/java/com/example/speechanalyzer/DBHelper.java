@@ -19,7 +19,7 @@ public DBHelper(Context context)
 
     @Override
     public void onCreate(SQLiteDatabase db) {
-        String table = "CREATE TABLE RESULTS(_id INTEGER PRIMARY KEY AUTOINCREMENT, FillerWords TEXT)";
+        String table = "CREATE TABLE RESULTS(_id INTEGER, FillerWords TEXT)";
         db.execSQL(table);
         insert("hello",db);
     }
